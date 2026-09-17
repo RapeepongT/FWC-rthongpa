@@ -1,12 +1,7 @@
-if [ -z $# ]; then
+if [ $# -eq 0 ]; then
     echo "No arguments supplied"
 else
-    for arg in "$@"
-        do
-            if [ $count -ge 3 ]; then
-                break
-            fi
-            count=$((count + 1))
-            echo "$arg"
-        done
-    fi
+    for arg in "$@"; do
+        echo "$arg"
+    done
+fi
