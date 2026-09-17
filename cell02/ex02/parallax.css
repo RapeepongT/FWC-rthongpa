@@ -1,0 +1,37 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 15px;
+    color: white;
+}
+
+.pimg1{
+    background-image:url('https://dinoanimals.com/wp-content/uploads/2023/03/Domestic-cat-35.jpg');
+    min-height: 100%;
+}
+
+.pimg2{
+    background-color:#000;
+    min-height: 100%;
+}
+
+.pimg3{
+    background-image:url('https://tse1.mm.bing.net/th/id/OIP.LlTzryxWYGpnZ2s4d_68sQHaFS?r=0&w=1200&h=857&rs=1&pid=ImgDetMain&o=7&rm=3');
+    min-height: 100%;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
