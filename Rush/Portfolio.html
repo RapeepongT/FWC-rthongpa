@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="xlogin.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navbar -->
     <header class = "navbar">
-        <dive class = "container">
+        <div class = "container">
             <span class = "brand">Portfolio</span>
             <nav>
-                <a href = "#Home">Home</a>
                 <a href = "#About">About</a>
+                <a href = "#Showcase">Skill</a>
                 <a href = "#Contact">Contact</a>
             </nav>
-        </dive>
+        </div>
     </header>
     <!-- <div class = "introduction">
         <h1>Hello My name is Buffet</h1>
@@ -27,15 +27,36 @@
     </div> -->
 
     <div class = "container">
-        <section id = "Home" >
+        <section id = "About" >
+            <h1>About Me</h1>
             <img class ="about-photo" src = "cat.png" alt = "My Profile Picture">
-            <p>Hi, My name is Rapeepong Thongpat, and I am a Computer Science student at King Mongkut's Institute of Technology Ladkrabang.</p>
+            <p class = "about-text">Hi, My name is Rapeepong Thongpat, and I am a Computer Science student at King Mongkut's Institute of Technology Ladkrabang.</p>
         </section>
 
-        <section id = "About">
-            <h2>Showcase</h2>
-            <img class = "background-photo" src = "https://tse4.mm.bing.net/th/id/OIP.r-YpUhDSk_Uus5iHD-PoQQHaC4?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt = "Background Picture">
-            <p>I graduated from Phuketwittayalai School with a strong foundation in science and mathematics.</p>
+        <section id = "Showcase">
+            <h2>Skills</h2>
+            <p class = "showcase-text">These are the tools and technologies I work with.</p>
+            <div class = "skills-grid">
+                <div class = "skill-item">
+                    <div class = "skill-label"><span>HTML</span><span>75%</span></div>
+                    <div class = "skill-bar"><div class = "skill-bar-fill" style = "width: 75%;"></div></div>
+                </div>
+                
+                <div class = "skill-item">
+                    <div class = "skill-label"><span>CSS</span><span>75%</span></div>
+                    <div class = "skill-bar"><div class = "skill-bar-fill" style = "width: 75%;"></div></div>
+                </div>
+
+                <div class = "skill-item">
+                    <div class = "skill-label"><span>JAVASCRIPT</span><span>70%</span></div>
+                    <div class = "skill-bar"><div class = "skill-bar-fill" style = "width: 70%;"></div></div>
+                </div>
+
+                <div class = "skill-item">
+                    <div class = "skill-label"><span>PYTHON</span><span>80%</span></div>
+                    <div class = "skill-bar"><div class = "skill-bar-fill" style = "width: 80%;"></div></div>
+                </div>
+            </div>
         </section>
 
         <section id = "Contact">
