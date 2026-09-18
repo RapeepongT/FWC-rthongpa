@@ -35,13 +35,11 @@
     position: absolute;
     background-color: rgb(132, 0, 255);
     top: 120%;
-    /* hide */
     opacity: 0; 
     transition: 0.3s;
     width: 200px;
   }
   .dropdown-link:hover .dropdown {
-    /* show */
     opacity: 1;
     transition: 0.3s;
   }
