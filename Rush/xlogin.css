@@ -39,3 +39,10 @@ body{
     font-size: 3.5rem;
     flex-shrink: 0;
 }
+section{
+    padding: 10px 0;
+    text-align: center;
+}
+#About p{
+    margin-top: 50px;
+}
