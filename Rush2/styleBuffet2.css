@@ -1,0 +1,82 @@
+:root {
+    --navebar-height: 140px;
+}
+html{
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    background-color: white;
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    padding-top: 140px;
+    padding-top: var(--navebar-height);
+}
+.navbar {
+    position: fixed; /* navbar จะอยู่ด้านบนของหน้าเว็บ */
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    border-bottom: 2px solid black;
+}
+.navbar .brand {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 40px ;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 2.3rem;
+    margin-right: 90px ;
+}
+
+/* ===== About ===== */
+
+.about-section {
+    min-height: 300px;
+    background-color: #333333;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.about-photo {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 50px auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 3.5rem;
+    flex-shrink: 0;
+}
+.about-text {
+    margin : 0px
+}
+
+/* ===== Showcase ===== */
+
+.showcase-section {
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+    background-color: #9cd343;
+    color: #333333;
+    width: 100%;
+    text-align: center;
+    overflow: hidden; /* ป้องกันเนื้อหาล้นออกนอก section */
+}
