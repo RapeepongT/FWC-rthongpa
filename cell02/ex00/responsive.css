@@ -13,11 +13,5 @@ table {
 td {
   text-align: center;
 }
-
-.cell1 {
-  background-color: greenyellow;
-}
-
-.cell2 {
-  background-color: rgb(250, 99, 99);
-}
+.cell1 {background-color: greenyellow;}
+.cell2 {background-color: rgb(250, 99, 99);}
