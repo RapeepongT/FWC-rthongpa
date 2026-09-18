@@ -6,6 +6,7 @@ body{
     background-color : white;
     line-height: 1.5;
     font-family: 'Poppins', sans-serif;
+    font-size: 25px;
 }
 .navbar{
     position: sticky;
@@ -34,8 +35,8 @@ body{
     letter-spacing: 3px;
 }
 .about-photo{
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
     background: var(--accent);
@@ -57,6 +58,16 @@ section{
 }
 #About p{
     margin-top: 50px;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    white-space: normal;
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+#Showcase{
+    background-color:white;
+    color: black;
 }
 .contact-icons{
     display: flex;
@@ -65,23 +76,16 @@ section{
     gap: 20px;
 }
 .ig-photo{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    background: var(--accent);
     display: block;
 }
 .facebook-photo{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    background: var(--accent);
     display: block;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-    font-size: 3.5rem;
-    flex-shrink: 0;
 }
