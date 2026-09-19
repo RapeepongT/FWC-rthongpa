@@ -23,6 +23,33 @@ body {
     transform: scale(1.05);
 }
 
+/* Invisible table used only to align content */
+.card-content {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.card-content td {
+    border: none;
+    padding: 0;
+    text-align: center;
+}
+
+
+.card-content td.login {
+    padding-bottom: 10px;
+}
+
+.card-content td.description {
+    padding-bottom: 20px;
+}
+
+.card-content td.social-icons {
+    padding-bottom: 20px;
+}
+
 .title {
     font-size: 26px;
     color: #333333;
@@ -49,19 +76,12 @@ body {
 .login {
     font-size: 20px;
     font-weight: bold;
-    margin-bottom: 10px;
     color: #444444;
 }
 
 .description {
     font-size: 14px;
     color: #777777;
-    margin-bottom: 20px;
-}
-
-/* Social Icons */
-.social-icons {
-    margin-bottom: 20px;
 }
 
 .social-icons a {
