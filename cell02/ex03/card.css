@@ -42,7 +42,7 @@ body {
 }
 
 .profile-pic img:hover {
-    border-color: #e7a849;
+    border-color: skyblue;
 }
 
 /* Login and Description */
@@ -71,7 +71,7 @@ body {
 }
 
 .social-icons a:hover {
-    transform: translateY(-5px);
+    transform: translateY(-7px);
     opacity: 0.7;
 }
 
